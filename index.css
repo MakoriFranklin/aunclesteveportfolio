@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nunito Sans", sans-serif;
+    scroll-behavior: smooth;
+}
+
+button{
+    background: transparent;
+    padding: 5px 10px;
+    border-color: aqua;
+    
+}
+
+button:hover{
+    background-color: crimson;
+    border: none;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+.profile{
+    display: flex;
+    justify-content:center;
+    
+
+}
+
+.profile-content{
+    
+    margin-left: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0px;
+    
+}
+
+img{
+    border-radius: 100%;
+
+}
+
+.content{
+    justify-content: center;
+    margin: 40px;
+}
+
+section{
+    max-width: 500px;
+    align-items: center;
+}
+
+.profile-p{
+    margin-top: 0px;
+
+}
+
+.ul1{
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    
+}
+
+ul a{
+    list-style: none;
+    text-decoration: none;
+}
+
+p a{
+    text-decoration: none;
+}
+
+
+
+
